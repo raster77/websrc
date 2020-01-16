@@ -1,0 +1,34 @@
+baseURL = "https://raster77.github.io/"
+languageCode = "en-us"
+title = "mls"
+theme = "hermit"
+publishdir = "build"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 1
+
+  [[menu.main]]
+	identifier = "Memo"
+    name = "Memo"
+	weight = 10
+
+  [[menu.main]]
+	parent = "Memo"
+    name = "git"
+    url = "memo/git/"
+	weight = 8
+
+  [[menu.main]]
+    name = "About"
+    url = "about/about"
+    weight = 20
